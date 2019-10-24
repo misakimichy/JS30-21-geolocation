@@ -8,4 +8,33 @@ html {
 
 body {
     font-family: 'Open Sans' sans-serif;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #28282882;
+    background-size: 16px 16px;
+    background-attachment: fixed;
+}
+
+.arrow {
+    width: 250px;
+    overflow: hidden;
+    display: inline-block;
+    transition: all 200ms;
+    transform: rotate(0deg);
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+}
+
+.units {
+    font-size: 15px;
 }
